@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { fetchAPI } from 'services';
+import { fetchAPI } from '../../../services';
 
 // ! Операции - используют actions внутри себя: request, success, error,
 
